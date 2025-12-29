@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% 定義節點樣式
     classDef main fill:#f9f,stroke:#333,stroke-width:2px;
@@ -26,3 +27,4 @@ graph TD
     %% 連結
     Result --> Main
     Stats --> Main
+```
