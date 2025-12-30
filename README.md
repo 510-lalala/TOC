@@ -57,9 +57,9 @@ stateDiagram-v2
     %% 2. 路由分歧 (main.py if-elif-else)
     Analyzing --> SetBudget: 含 "budget" + 數字
     %%Analyzing --> Writing: 含 ":" (快速記帳)
-    Analyzing --> AIParsing: 含 "買/花/吃" (AI 記帳)
-    Analyzing --> StockState: 含 "股票/股價"
-    Analyzing --> StatState: 含 "統計/圖"
+    Analyzing --> AIParsing: 含 "買/花/吃/元/塊" (AI 記帳)
+    Analyzing --> StockState: 含 "股票/股價/查/走勢/行情"
+    Analyzing --> StatState: 含 "統計/分析/最多/算錢/總結/計算"
     Analyzing --> ChatState: 無關鍵字 (Default)
 
     %% 3. 預算設定流程
