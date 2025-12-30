@@ -36,7 +36,7 @@ WealthWise AI 是一個結合了 **AI 自然語言處理**、**Google Sheets 雲
 └── credentials.json    # Google Sheets API 服務帳號金鑰
 
 ```
-##flow chart
+## flow chart
 ```mermaid
 graph TD
     %% 定義節點樣式
